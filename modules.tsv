@@ -1,0 +1,180 @@
+	30 pin	Integrated Memory Systems Aust.	8 x OKI M514100A-70SJ	4?	Color Classic?	gold contacts
+	30 pin	MSC23108-70DS2	2 x OKI M514400A-70SJ	1?	Quadra 950?	
+	30 pin	BUSY BEE ROBOT / FUYU 20V0	8 x KM41C4000J-8	4?	Quadra 950?	gold contacts
+	30 pin	?	2 x Hyundai HY514400A J-70, 1 x HY531000AJ-70	1?		gold contacts
+	30 pin	?	2 x OKI M514400A-70SJ, 1 x OKI M511000A-70J	?		
+	30 pin	IBM 1MB 1M X 9 P	2 x IBM9398, 1 x ?	?		
+	30 pin	GoldStar E71042 9348 GS3	2 x GoldStar GM71C4400BJ70, 1 x GM71C1000BJ70	?		low profile
+	30 pin	?	2 x GoldStar GM71C4400AJ70, 1 x GM71C1000J70	?		gold contacts, low profile
+	30 pin	HB56G19B-7B	2 x Hitachi HM514400BS7, 1 x HM511000AJP7	?		low profile
+	68 pin	Apple	4 x Mitsubishi M5M442256AJ -10	?	LCII	
+	72 pin	Amicroe 8x32-60 2K	16 x Osaka Tech OS16D4045F2DJ-60	32	PowerMac 52x0/5300	
+	72 pin	Motorola MCM32230SH70	16 x Motorola MCM54400AN70	8	PowerMac 6100/60 AV	
+	72 pin	Apple 2MEG BY 32 DRAM SIMM	4 x Siemens HYB5117800ASJ-70	8	PowerMac 6100/60 AV	
+	72 pin	TP11D1320BA-70 1M x32	8 x TF014400J2C-70	4	Quadra 610?	
+	72 pin	?	8 x USA 4004 SOJ-6	16	Quadra 610?	
+	72 pin	POWMEN	4 x TI TMS418160DZ -60	8	LC475?	
+	72 pin	Amicroe 4x32-60 2K	8 x SEC KM44C4100AK-6	16		
+	72 pin	Lite On	8 x LGS GM71C17403BJ6	16		
+	72 pin	Ubig	32 x KM41C4000BJ-6	16	Quadra 800	probably composite
+	72 pin	Amicore	16 x Vanguard VG264400BJ -7	8		gold contacts
+	72 pin	?	16 x Alliance AS4C14400-60JC	8		
+	72 pin	?	16 x SEC KM44C1000BJ-7	8		
+	72 pin	HYUNDAI HYM532100AM-70	8 x HY514400 J-70	4		
+	72 pin	?	8 x TI TMS44400DJ -70	4		gold contacts
+	72 pin	TI TM124BBK32S-70	8 x TI TMS44400DJ -70	4		
+	72 pin	?	16 x TI Z44400DJ -70	POST failed		gold contacts
+	72 pin	? MMD 319 7662 / 105893	4 x TMS45160DZ	POST failed		gold contacts
+	72 pin	Kingston KTH-VL4/16.CE	4 x NEC D4218165G5 -60-7JF	8		
+	72 pin	Amicroe 4x32-60 2K	8 x Micron MT4LC4M4E8DJ -6	16	Quadra 650	
+	72 pin	?	8 x MT51C4400J-70	4	Quadra 580	
+	72 pin	Kingston KTA-Q850/16	8 x Toshiba TC5117400CSJ-60	16	Quadra 605	
+	72 pin	Samsung KMM5321000BV-7	8 x KM44C1000BJ-7	4	LC475	
+	72 pin	Kingston KTA-Q850/16	8 x SEC KM44C4100BK-6	16	Quadra 630	
+	72 pin	Apple/Samsung KMM5322000CV-7	16 x SEC KM44C1000CJ-7	8	LCIII	
+	72 pin	TI Z124BBK32 -60A	8 x TI TMS44400DJ -60	4	LCIII	gold contacts
+	72 pin	?	8 x Siemens HYB514400AJ-70	4	LCIII	gold contacts, high profile
+	72 pin	LG Semi GMM7328110	16 x LGS GM71C17403BJ6	32		
+	72 pin	?	8 x TI TMS417400ADJ -60	16		
+	72 pin	?	8 x VG2617405CJ -6	16		
+	72 pin	?	8 x LGS GM71C17403BJ6	16		
+	72 pin	Memory Card Technology 7F66685	16 x Fairchild 8117400A-60	32		gold contacts
+	72 pin	Toshiba THM365120AS-80	4 x TC51245T-80, 16 x TC514256AJ-80	POST failed		
+	72 pin	DEC 54-23170-CA 4Mx32	8 x SEC KM44C4100AK-7	16		
+	72 pin	DEC 5421225	4 x TMS4C1024DJ -70, 8 x HY514400A J-70	4		
+	72 pin	DEC 5021224	4 x M5M41000BJ -7, 8 x HYB514400BJ-70	4		
+	72 pin	Century 4 MEG w/o Parity	8 x V53C404BK60	4		
+	72 pin	Century 4 MEG w/o Parity	8 x Hitachi HM514400CS6	4		
+	72 pin	TI Z124BBK32 -70 A	8 x TI Z44400DJ -70	4		gold contacts
+	72 pin	16MB SIMM96DS	8 x TI TMS417409ADJ -60	16		gold contacts
+	72 pin	Computer Recyclers A07154	16 x MT4C4001JDJ -6	8		
+	72 pin	DEC 5421225	8 x Hitachi HM514400BS7	4		
+	72 pin	?	8 x GoldStar GM71C4400BJ70	4		gold contacts
+	72 pin	?	2 x KM416C1200J-7	4		gold contacts
+	72 pin	?	4 x Samsung KM48C2100AJ-7	8		low profile
+	72 pin	TI TM124MBK36A	4 x TMS4C1024DJ -70, 8 x TMS44400DJ -70	4		
+	72 pin	?	8 x HM514400CS7	4		gold contacts
+	72 pin	HYPERTEC HYMCQ10016	4 x HYB5118165BSJ-50	8		
+	72 pin	HYPERTEC HY8610 (8MB)	4 x TI TMS418160DZ -60, 8 x TI TMS4C1024DJ -70	8		gold contacts
+	72 pin	Integrated Memory Systems	16 x Fairchild 814400A-70, 8 x Samsung KM41C1000CJ-7	8		gold contacts, high profile
+	72 pin	Mitsubishi MH2M36BNYJ	18 x Mitsubishi M5M44400BJ -7	8		
+	72 pin	?	16 x Panasonic MN414400CSJ-07	8		gold contacts
+	72 pin	?	16 x LGS GM71C4400CJ60	8		
+	72 pin	?	16 x Fairchild 814400A-70	8		gold contacts, high profile
+	72 pin	DEC 5021224-01	8 x TMS44400DJ -70, 4 x KM41C1000CJ-7	POST failed		
+	72 pin	HYUNDAI HYM532100AM-70B	8 x HY514400A J-70	4		
+	72 pin	SMART CQ SM5321000W-7	2 x HY5118160 JC-70	4		low profile
+	72 pin	SEC KMM5321204AW-6	2 x SEC KM416C1204AJ-6	4		
+	72 pin	HYPERTEC HY4380 4MB (1Mx36)	2 x HY5118160 JC-70, 4 x SEC KM41C1000DJ-6	4		
+	72 pin	?	8 x GoldStar GM71C4400BLJ70, 4 x BP41C1000A-6	4		gold contacts, high profile
+	72 pin	?	8 x GoldStar GM71C4400BJ70	4		gold contacts, low profile
+	72 pin	?	8 x TI TMS44400DJ -70	4		low profile
+	72 pin	Motorola MCM32400ASH60	8 x Motorola MCM517400BJ60	16		
+	72 pin	Kingston KTM4X32L-70T	8 x Toshiba TC5117400CSJ-60	16		
+	72 pin	Mitsubishi MH1M36EJ-7	8 x Mitsubishi M5M44400AJ -7, 4 x M5M41000BVP-7	4		gold contacts
+	72 pin	Mitsubishi MH2M325CNDJ-6	16 x Mitsubishi M5M44405CJ -6	8?		
+	72 pin	DEC 5421225	8 x Mitsubishi M5M44400BJ -7	?		
+	72 pin	Transcend	8 x Mitsubishi M5M44400BJ -7S, 4 x M5M41000BVP-7	4		
+	72 pin	?	8 x Hyundai HY5117404B J-60	16		low profile
+	72 pin	?	8 x Vanguard VG2617405CJ -6	16		low profile
+	72 pin	LG Semicon GMM7322100B	16 x LGS GM71C4400BJ70	8		
+	72 pin	PTC GT-7233B1	16 x NANYA NT511740A5J-60	32		low profile
+	72 pin	?	16 x Mosel Vitelic V53C408HK60	8		gold contacts, low profile
+	72 pin	DEC 4MB 32/36 DRAM 5421445	8 x Hyundai HY514400A J-70, 4 x TI TMS4C1024DJ -70	4		
+	72 pin	?	16 x SHARP LH6T4400K-60L	8		gold contacts, low profile
+	72 pin	HP D3866AX 8 MB  EDO (2MX32)	16 x Micron MT4C4007JDJ -6	8		
+	168 pin	Acer 48.71012.GBA	8 x TI TMS626812ADGE -10	16?		gold contacts
+	72 pin	Hyundai HYM532410M-70	8 x Hyundai HY5117400 JC-70	16	Quadra 650	
+	30 pin	?	8 x Samsung KM41C16000AJ-7	16?		high profile
+	30 pin	PARITY SYSTEMS	9 x Samsung KM41C4000J-8	4		
+	30 pin	SAMSUNG KMM581000AP-8	8 x KM41C1000AJ-8	1	Mac IIsi	
+	30 pin	?	8 x TMS4C1024DJ -80	1?	Mac IIsi	gold contacts
+	30 pin	TOSHIBA THM81000AS-80	8 x TC511000AJ-80	1?	Mac SE/30	
+	30 pin	Samsung	2 x KM44C1000BJ-8	1	Mac SE/30	
+	72 pin	?	16 x HY514400A LJ-60	8		gold contacts
+	72 pin	?	16 x HY5117404B J-60	32		gold contacts
+	72 pin	?	16 x MT4C4001JDJ -7	8		
+	72 pin	MCM32230SH70	16 x MCM54400AN60	8?		
+	72 pin	?	16 x V53C404HK60	8?		gold contacts
+	72 pin	?	16 x TI TMS44400DJ -60	8		gold contacts
+	72 pin	?	8 x Hitachi HM514400AS7, 4 x AAA1M300J-07	4		
+	72 pin	?	8 x KM41C1000CJ-7, 4 x KM44C1000BJ-7	3?		gold contacts
+	72 pin	?	16 x HY51V17404B J-60	32?		
+	72 pin	?	8 x LGS GM71C17603BJ6	16		low profile
+	72 pin	?	16 x VG264400BJ -6	8		gold contacts
+	72 pin	30232G7	16 x Motorola MCM54400AN60	8?		gold contacts
+	72 pin	?	16 x IBM 014400BJ1E	?		
+	72 pin	?	16 x SIEMENS HYB514400BJ-70	8?		gold contacts
+	72 pin	?	8 x HY5117400B J-60	16?		
+	72 pin	?	8 x HY5117404B J-60	16		
+	72 pin	?	4 x KM48C2100AJ-7	8		gold contacts, low profile
+	72 pin	SMART SM5321000-7	8 x NEC 424400-70	4		
+	72 pin	LEGEND 16MB EDO	8 x ICM 417403-60	16		gold contacts
+	72 pin	?	8 x GoldStar GM71C4400BJ70	4		
+	72 pin	?	8 x Panasonic MN42V4400TT-07	4		gold contacts
+	72 pin	?	8 x HY5117404B J-60	16?		
+	72 pin	?	8 x VG264400BJ -7	4		gold contacts
+	72 pin	?	8 x SEC KM44V1000CT-7	4		gold contacts
+	72 pin	Cubig 16MB EDO	8 x Mitsubishi M5M417405CJ -6	16		
+	72 pin	NEC MC-421000A36B-70	8 x NEC 424400-70, 4 x NEC 421000-70	4		
+	72 pin	?	8 x Panasonic MN414400CSJ-07	4?		gold contacts
+	72 pin	?	8 x Vitec VT517404-6	16?		
+	72 pin	?	8 x TI TMS44400DJ -70	4		
+	72 pin	Mitsubishi MH4M325CNXJ-6	8 x Mitsubishi M5M417405CJ -6	16?		
+	72 pin	Mitsubishi MH4M32BNYJ-6	8 x Mitsubishi M5M417400BJ -6	16?		
+	72 pin	?	8 x LGS GM71C17400AJ7	16?		gold contacts
+	72 pin	Transcend	16 x NT511740C0J-60	32		
+	72 pin	8MX32-EDO	16 x HYB5117405BJ-60	32		
+	72 pin	Amicroe 8x32-60 2K	16 x S4004SE1DJ -06	32		
+	72 pin	HYMCQ04032	16 x LGS GM71C17400CJ6	32		
+	30 pin	?	2 x Motorola MCM54400AN80	1	Mac IIvx	
+	30 pin	TP015693	2 x Samsung KM44C1000BJ-7, 1 x Samsung KM41C1000CJ-7	1		gold contacts
+	30 pin	?	9 x TI TMS44100DJ -70	4?		gold contacts
+	30 pin	SIM 1MX9-70NS	2 x GoldStar GM71C4400BJ70, 1 x BP41C1000A-6	1		gold contacts
+	30 pin	TP021445	9 x GoldStar GM71C4100AJ70	4		gold contacts
+	30 pin	TP016291	2 x HY514400J-70, 1 x HY531000AJ-70	1?		gold contacts
+	30 pin	SIM 1MX9-70NS	2 x NEC 424400-70, 1 x NEC 421000-70	1?		gold contacts
+	30 pin	Motorola MCM81000S	8 x Motorola MCM511000AJ80	1		
+	30 pin	?	8 x SIEMENS HYB514100AJ-70	4		
+	30 pin	firmware design 4Mx8	8 x Samsung KM41C4000BJ-7	4		
+	72 pin	?	16 x ALLIANCE AS4C14400-60JC, 8 x HY531000ALJ-60	8	PowerMac 9150	
+	72 pin	COMPAQ MT8D132M -7	8 x MT4C4001JDJ -6	4	PowerMac 9150	
+	72 pin	?	8 x MT4C4001JDJ -6	4	PowerMac 9150	gold contacts
+	72 pin	Kingston KTA-CENT/8	4 x KM48C2100AJ-7, 1 x Philips 74F808D	8?	Quadra 650	
+	72 pin	DEC 54-24123-AA	36 x M5M416100CJ -6	64		high profile, probably composite
+	30 pin	XMP 10807 A011640	8 x Fairchild 81C1000A-70	1	Quadra 950	gold contacts
+	30 pin	TI TM124GU8A -80	2 x TI TMS44400DJ -70	1	Quadra 950	
+	30 pin	FUYU	8 x GoldStar GM71C4100BJ70	4	Quadra 950	
+	72 pin	KAHLON KAH16X32-60	8 x Micron MT4LC16M4H9	64		
+	72 pin	KAH32X32-60	16 x NEC D42S65405G5	128		
+	168 pin	Apple 402646B	8 x TMS418160DZ -60	16		gold contacts, buffered, 5V
+	168 pin	SEC KMM364C124AJ-6	4 x KM416C1200AJ-6	8		gold contacts, buffered, 5V
+	168 pin	Mitsubishi MH1M64CXPJ-6	4 x M5M418160CJ -6	8		gold contacts, buffered, 5V
+	168 pin	SAMSUNG KMM364C120CJ1-7	16 x KM44C1000CJ-7	8		gold contacts, buffered, 5V
+	168 pin	SEC KMM366F803BK2-6	8 x SEC KM48V8104BK-6	64		gold contacts, unbuffered, 3.3V
+	30 pin	Si	8 x Sanyo LC321000J-80	1	Mac II	gold contacts
+	30 pin	?	8 x Micron MT4C1024DJ -8	1	Mac II	
+	30 pin	?	8 x GoldStar KM41C1000BJ-8	1	Mac II	gold contacts
+	30 pin	SIM 1Mx9-70NS	2 x Goldstar GM71C4400BJ70, 1 x BP41C1000A-6	1		gold contacts
+	72 pin	EDGE 94/5 150941	4 x Hyundai HY5118164B JC-60	8?		gold contacts, 5V
+	72 pin	EDGE 94/5 719693	8 x Siemens HYB5117405BJ-60	16?		5V
+	72 pin	CCA	16 x LGS GM71C17403CJ6	32?		5V
+	72 pin	OC0007351	16 x Hyundai HY5117400B J-60, 8 x Micron MT4C1004JDJ -6	32		high profile, 5V
+	30 pin	TP 03002467	9 x Mitsubishi M5M44100AJ -7	4?		parity
+	30 pin	IBM 053 B1A 10900A-70	1 x ?, 2 x ? TPA14B00J2C-70	1		parity
+	30 pin	?	2 x Fairchild 814400-80L, 1 x Fairchild 81C1000A-60	1?		gold contacts, low profile, parity
+	30 pin	?	2 x Goldstar KM44C1000CJ-7, 1 x ? VT531000 BJ-60	1?		gold contacts, low profile, parity
+	30 pin	TP 03001045	9 x Mitsubishi M5M41000BJ -7	1?		parity
+	30 pin	B74911I	8 x Hyundai HY531000AJ-70, 1 x ? BP41C1000D-6	1?		gold contacts, parity
+	PB-500	Apple Computer 820-0455-A	16 x NEC 42S4800-70	8?		
+	PB-500	CUBIG AAP1488	16 x IBM 0117800BT3E	32		
+	PB-Duo	AP1610-02 Apple Computer	8 x NEC 42S4800-70A	4?	PowerBook 150?	
+	PB-500	Kingston KTA-PB500/8	4 x SEC KM48C2100ALT-7	8?	PowerBook 520	
+	PB-1x0	Apple Computer 820-0376-04	8 x Hitachi 658512LTT-85, 2 x SHARP LH534PD1	10?	PowerBook 165c	
+	30 pin	Apple Computer 820-0246-03	8 x Goldstar KM41C1000P-12	1		
+	30 pin	GT2INT	2 x HM5117400BS6, 1 x OKI M514100C-60SJ	4		gold contacts, parity, low profile
+	30 pin	VP4X9	2 x Mitsubishi M5M4V17400BTP -7	1?		low profile
+	30 pin	?	2 x NEC 424400-80L	1?	Color Classic	gold contacts, low profile
+	30 pin	B5577 REV.A	2 x VG2617400CJ -6, 1 x ? BP41C4000B-6	4?	Mac IIci	low profile
+	30 pin	MAC-QH124M Cubig	4 x SIEMENS HYB514400BJ-80, 1 x Lattice GAL16V8A	2?	Mac IIci	
+	30 pin	LIFETIME 10143 N/C	8 x TI TMS44100DJ -80	4?	Mac IIci	
