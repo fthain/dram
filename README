@@ -1,0 +1,13 @@
+Reference material for DRAM modules and devices. See -
+
+    http://fthain.github.io/dram/
+
+The above page was generated from the specifications kept here.
+
+chips.tsv   - List of DRAM devices and specifications.
+
+modules.tsv - List of DRAM modules and specifications.
+
+gen-html.pl - Script to convert the tab-separated device data into HTML.
+              The HTML is found in the gh-pages branch.
+

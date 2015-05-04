@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Copyright (c) 2007-2015 Finn Thain
+
 use strict;
 use warnings;
 
@@ -29,7 +31,7 @@ grep {
   s/^([A-Z]+)([0-9]+)([A-Z])([0-9]+).*/$1$2$3$4/;
   $keywords{$_} = 0;
 } keys %chips;
-my $keywords = join( " ", keys %keywords );
+my $keywords = join( " ", sort keys %keywords );
 
 print qq(<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
@@ -47,11 +49,11 @@ my $j = 0;
 grep {
   my $bgcolor = $j++ % 2 ? "#D4D4D4" : "#FFFFFF";
   print qq(<tr bgcolor="$bgcolor"><td>$chips{$_}{mfgr}</td>
-<td><A NAME="$_">$_</A></td>
+<td><a name="$_">$_</a></td>
 <td>$chips{$_}{org}</td>
 <td>$chips{$_}{type}</td></tr>\n)
 } sort keys %chips;
-print "</table>\n";
+print "</table></p>\n";
 
 sub mB_to_bits {
   my $mB = shift;
@@ -117,7 +119,7 @@ READ: while(<IN>) {
       } else {
         $module_type = $chips{$chip}{type}
       }
-      $device{html} = qq($device{count}&nbsp;x&nbsp;<A HREF="#$chip">$chip_html</A>)
+      $device{html} = qq($device{count}&nbsp;x&nbsp;<a href="#$chip">$chip_html</a>)
     } else {
       $device{html} = $ff;
       $device{html} =~ s/ /&nbsp;/g;
@@ -164,7 +166,7 @@ print qq(<tr bgcolor="#000000">);
 print qq(<td><font color="#FFFFFF">Module Type</font></td>);
 print qq(<td><font color="#FFFFFF">Part Code</font></td>);
 print qq(<td><font color="#FFFFFF">Chips</font></td>);
-print qq(<td><font color="#FFFFFF">DRAM Type</font></td>);
+print qq(<td><font color="#FFFFFF">RAM Type</font></td>);
 print qq(<td><font color="#FFFFFF">Size Tested (MB)</font></td>);
 print qq(<td><font color="#FFFFFF">Origin</font></td>);
 print qq(<td><font color="#FFFFFF">Notes</font></td>);
@@ -182,8 +184,13 @@ for $j (0..$#order) {
   print qq(<td>$modules[$i]{notes}</td>);
   print qq(</tr>\n);
 }
-print "</table>\n";
+print "</table></p>\n";
 
 print <<END;
+<br>
+<i>
+<p>Page generated from data kept at <a href="https://github.com/fthain/dram/tree/master">https://github.com/fthain/dram/tree/master</a></p>
+<p>If you have corrections or additions please send a git pull request.</p>
+</i>
 </body></html>
 END
