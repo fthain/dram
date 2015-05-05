@@ -11,3 +11,6 @@ modules.tsv - List of DRAM modules and specifications.
 gen-html.pl - Script to convert the tab-separated device data into HTML.
               The HTML is found in the gh-pages branch.
 
+TODO -
+
+    Use a proper HTML templating engine instead of a perl hack.
