@@ -2,6 +2,7 @@
 
 # Copyright (c) 2007-2015 Finn Thain
 
+use 5.008;
 use strict;
 use warnings;
 
