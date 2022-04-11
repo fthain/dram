@@ -178,3 +178,5 @@
 	30 pin	B5577 REV.A	2 x VG2617400CJ -6, 1 x ? BP41C4000B-6	4?	Mac IIci	low profile
 	30 pin	MAC-QH124M Cubig	4 x SIEMENS HYB514400BJ-80, 1 x Lattice GAL16V8A	2?	Mac IIci	
 	30 pin	LIFETIME 10143 N/C	8 x TI TMS44100DJ -80	4?	Mac IIci	
+	72 pin	LITE ON 20V0	8 x Eagle EM4403NJ-7	16	LC630	gold contacts, low profile
+	30 pin	LITE ON 20V0	2 x Eagle EM4403NJ-7, 1 x Eagle EM4003NJ-7	4?	Seen on web	gold contacts, low profile
