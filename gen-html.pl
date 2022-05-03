@@ -7,13 +7,13 @@ use strict;
 use warnings;
 
 my %chips;
-# Mfgr, Device, Organisation, Type
-open(IN, '<', 'chips.tsv') or die "open failed";
-while(<IN>) {
+# Manufacturer, Part, Structure, Type
+open(IN, '<', 'chips.tsv') or die 'open failed';
+while (<IN>) {
 	chomp;
 	my @F = split /\t/;
 	die unless scalar(@F) == 4;
-	$chips{$F[1]} = { "mfgr" => $F[0], "org" => $F[2], "type" => $F[3] };
+	$chips{$F[1]} = { 'mfr' => $F[0], 'org' => $F[2], 'type' => $F[3] };
 	my $bits = $F[2];
 	$bits =~ s/M/*1048576/g;
 	$bits =~ s/K/*1024/g;
@@ -32,7 +32,7 @@ grep {
 	s/^([A-Z]+)([0-9]+)([A-Z])([0-9]+).*/$1$2$3$4/;
 	$keywords{$_} = 0;
 } keys %chips;
-my $keywords = join( " ", sort keys %keywords );
+my $keywords = join(' ', sort keys %keywords);
 
 print qq(<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
@@ -48,13 +48,13 @@ print qq(<tr bgcolor="#000000"><td><font color="#FFFFFF">Manufacturer</font></td
 <td><font color="#FFFFFF">DRAM Type</font></td></tr>\n);
 my $j = 0;
 grep {
-	my $bgcolor = $j++ % 2 ? "#D4D4D4" : "#FFFFFF";
-	print qq(<tr bgcolor="$bgcolor"><td>$chips{$_}{mfgr}</td>
+	my $bgcolor = $j++ % 2 ? '#D4D4D4' : '#FFFFFF';
+	print qq(<tr bgcolor="$bgcolor"><td>$chips{$_}{mfr}</td>
 <td><a name="$_">$_</a></td>
 <td>$chips{$_}{org}</td>
 <td>$chips{$_}{type}</td></tr>\n)
 } sort keys %chips;
-print "</table></p>\n";
+print qq(</table></p>\n);
 
 sub mB_to_bits {
 	my $mB = shift;
@@ -65,7 +65,7 @@ sub mB_to_bits {
 
 sub render_device_html {
 	my $d = shift;
-	if(defined $chips{$d}) {
+	if (defined $chips{$d}) {
 	} else {
 		print STDERR "$d\n";
 		$d
@@ -79,29 +79,29 @@ sub strip_parens {
 }
 
 my @modules;
-# Qty, Pins, Part, Chips per module, MBytes, Origin, Notes
-open(IN, '<', 'modules.tsv') or die "open failed";
-READ: while(<IN>) {
+# Qty, Connector, Part, Chips per module, MBytes, Origin, Notes
+open(IN, '<', 'modules.tsv') or die 'open failed';
+READ: while (<IN>) {
 	chomp;
 	my @F = split /\t/, $_, -1;
-	die join ":",@F unless scalar(@F) == 7;
+	die join(':', @F) unless scalar(@F) == 7;
 	my $module_bits = 0;
 	my @FF = split /,/, $F[3];
 	my @devices;
 	my $module_type;
 	for my $ff (@FF) {
 		my %device;
-		my @mfgr = ();
+		my @mfr = ();
 		my @markings = split ' ', $ff;
 		my $n = shift @markings;
-		$n = undef unless $n eq ("".int($n));
-		shift(@markings) eq "x" or die;
+		$n = undef unless $n eq (''.int($n));
+		shift(@markings) eq 'x' or die;
 		HERE: $_ = shift @markings;
 		if (defined $_) {
 			if (/[^A-Za-z]/) {
 				unshift @markings, $_;
 			} else {
-				push @mfgr, $_;
+				push @mfr, $_;
 				goto HERE
 			}
 		}
@@ -111,7 +111,7 @@ READ: while(<IN>) {
 			$device{count} = $n;
 			$module_bits += $n * $chips{$chip}{bits} if defined $chips{$chip};
 		} else {
-			$device{count} = "?"
+			$device{count} = '?'
 		}
 		if (defined($chips{$chip})) {
 			if (defined($module_type) and $chips{$chip}{type} ne $module_type) {
@@ -127,29 +127,29 @@ READ: while(<IN>) {
 		}
 		push @devices, \%device;
 	}
-	push @modules, { "qty" => $F[0],
-	                 "connector" => $F[1],
-	                 "part" => $F[2],
-	                 "chips" => join(", ", map { $_->{html} }
+	push @modules, { 'qty' => $F[0],
+	                 'connector' => $F[1],
+	                 'part' => $F[2],
+	                 'chips' => join(', ', map { $_->{html} }
 	                                       sort { $b->{count} <=> $a->{count} }
 	                                       @devices),
-	                 "type" => $module_type,
-	                 "MB_tested" => $F[4],
-	                 "origin" => strip_parens( $F[5] ),
-	                 "notes" => $F[6] };
+	                 'type' => $module_type,
+	                 'MB_tested' => $F[4],
+	                 'origin' => strip_parens( $F[5] ),
+	                 'notes' => $F[6] };
 
 	my $b = mB_to_bits $F[4];
 	warn "size incorrect? $b vs $module_bits = @FF\n"
 		if $b and $module_bits and
-			 $b != $module_bits and
-			 $b != $module_bits / 9 * 8 # parity kludge
+		   $b != $module_bits and
+		   $b != $module_bits / 9 * 8 # parity kludge
 }
 close IN;
 
 sub connector_cmp {
 	my @a = split ' ', shift;
 	my @b = split ' ', shift;
-	if ( $a[0] + 0 eq "$a[0]" and $b[0] + 0 eq "$b[0]" ) {
+	if ($a[0] + 0 eq "$a[0]" and $b[0] + 0 eq "$b[0]") {
 		my $result = $a[0] <=> $b[0];
 		return $result if $result;
 		shift @a;
@@ -158,7 +158,7 @@ sub connector_cmp {
 	return $a[0] cmp $b[0]
 }
 
-print "<br><h1>Modules</h1><p><table>\n";
+print qq(<br><h1>Modules</h1><p><table>\n);
 my @order = (0..$#modules);
 @order = sort { connector_cmp($modules[$a]{connector}, $modules[$b]{connector}) }
                sort { $modules[$a]{type}      cmp $modules[$b]{type} }
@@ -185,7 +185,7 @@ for $j (0..$#order) {
 	print qq(<td>$modules[$i]{notes}</td>);
 	print qq(</tr>\n);
 }
-print "</table></p>\n";
+print qq(</table></p>\n);
 
 print <<END;
 <br>
