@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Copyright (c) 2007-2015 Finn Thain
+# Copyright (c) 2007-2015, 2022 Finn Thain
 
 use 5.008;
 use strict;
@@ -191,7 +191,8 @@ print <<END;
 <br>
 <i>
 <p>Page generated from data kept at <a href="https://github.com/fthain/dram/tree/master">https://github.com/fthain/dram/tree/master</a></p>
-<p>If you have corrections or additions please send a git pull request.</p>
+<p>If you have corrections or additions please send a pull request
+or open a new issue.</p>
 </i>
 </body></html>
 END
