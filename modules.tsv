@@ -146,7 +146,7 @@
 	30 pin	TI TM124GU8A -80	2 x TI TMS44400DJ -70	1	Quadra 950	
 	30 pin	FUYU	8 x GoldStar GM71C4100BJ70	4	Quadra 950	
 	72 pin	KAHLON KAH16X32-60	8 x Micron MT4LC16M4H9	64		
-	72 pin	KAH32X32-60	16 x NEC D42S65405G5	128		
+	72 pin	KAHLON KAH32X32-60	16 x NEC D42S65405G5	128		
 	168 pin	Apple 402646B	8 x TMS418160DZ -60	16		gold contacts, buffered, 5V
 	168 pin	SEC KMM364C124AJ-6	4 x KM416C1200AJ-6	8		gold contacts, buffered, 5V
 	168 pin	Mitsubishi MH1M64CXPJ-6	4 x M5M418160CJ -6	8		gold contacts, buffered, 5V
@@ -180,3 +180,5 @@
 	30 pin	LIFETIME 10143 N/C	8 x TI TMS44100DJ -80	4?	Mac IIci	
 	72 pin	LITE ON 20V0	8 x Eagle EM4403NJ-7	16	LC630	gold contacts, low profile
 	30 pin	LITE ON 20V0	2 x Eagle EM4403NJ-7, 1 x Eagle EM4003NJ-7	4?	Seen on web	gold contacts, low profile
+	72 pin	GT-7236 4MX36 DOUBLE SIDE	8 x TI TMS417400ADJ -60	16	Q605	low profile
+	72 pin	VIKING 0003432790	16 x TI TMS417400ADJ -60	32	LC575	gold contacts
