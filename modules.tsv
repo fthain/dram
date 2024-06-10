@@ -38,7 +38,7 @@
 	72 pin	?	8 x TI TMS417400ADJ -60	16		
 	72 pin	?	8 x VG2617405CJ -6	16		
 	72 pin	?	8 x LGS GM71C17403BJ6	16		
-	72 pin	Memory Card Technology 7F66685	16 x Fairchild 8117400A-60	32		gold contacts
+	72 pin	Memory Card Technology 7F66685	16 x Fujitsu 8117400A-60	32		gold contacts
 	72 pin	Toshiba THM365120AS-80	4 x TC51245T-80, 16 x TC514256AJ-80	POST failed		
 	72 pin	DEC 54-23170-CA 4Mx32	8 x SEC KM44C4100AK-7	16		
 	72 pin	DEC 5421225	4 x TMS4C1024DJ -70, 8 x HY514400A J-70	4		
@@ -56,11 +56,11 @@
 	72 pin	?	8 x HM514400CS7	4		gold contacts
 	72 pin	HYPERTEC HYMCQ10016	4 x HYB5118165BSJ-50	8		
 	72 pin	HYPERTEC HY8610 (8MB)	4 x TI TMS418160DZ -60, 8 x TI TMS4C1024DJ -70	8		gold contacts
-	72 pin	Integrated Memory Systems	16 x Fairchild 814400A-70, 8 x Samsung KM41C1000CJ-7	8		gold contacts, high profile
+	72 pin	Integrated Memory Systems	16 x Fujitsu 814400A-70, 8 x Samsung KM41C1000CJ-7	8		gold contacts, high profile
 	72 pin	Mitsubishi MH2M36BNYJ	18 x Mitsubishi M5M44400BJ -7	8		
 	72 pin	?	16 x Panasonic MN414400CSJ-07	8		gold contacts
 	72 pin	?	16 x LGS GM71C4400CJ60	8		
-	72 pin	?	16 x Fairchild 814400A-70	8		gold contacts, high profile
+	72 pin	?	16 x Fujitsu 814400A-70	8		gold contacts, high profile
 	72 pin	DEC 5021224-01	8 x TMS44400DJ -70, 4 x KM41C1000CJ-7	POST failed		
 	72 pin	HYUNDAI HYM532100AM-70B	8 x HY514400A J-70	4		
 	72 pin	SMART CQ SM5321000W-7	2 x HY5118160 JC-70	4		low profile
@@ -142,7 +142,7 @@
 	72 pin	?	8 x MT4C4001JDJ -6	4	PowerMac 9150	gold contacts
 	72 pin	Kingston KTA-CENT/8	4 x KM48C2100AJ-7, 1 x Philips 74F808D	8?	Quadra 650	
 	72 pin	DEC 54-24123-AA	36 x M5M416100CJ -6	64		high profile, probably composite
-	30 pin	XMP 10807 A011640	8 x Fairchild 81C1000A-70	1	Quadra 950	gold contacts
+	30 pin	XMP 10807 A011640	8 x Fujitsu 81C1000A-70	1	Quadra 950	gold contacts
 	30 pin	TI TM124GU8A -80	2 x TI TMS44400DJ -70	1	Quadra 950	
 	30 pin	FUYU	8 x GoldStar GM71C4100BJ70	4	Quadra 950	
 	72 pin	KAHLON KAH16X32-60	8 x Micron MT4LC16M4H9	64		
@@ -162,7 +162,7 @@
 	72 pin	OC0007351	16 x Hyundai HY5117400B J-60, 8 x Micron MT4C1004JDJ -6	32		high profile, 5V
 	30 pin	TP 03002467	9 x Mitsubishi M5M44100AJ -7	4?		parity
 	30 pin	IBM 053 B1A 10900A-70	1 x ?, 2 x ? TPA14B00J2C-70	1		parity
-	30 pin	?	2 x Fairchild 814400-80L, 1 x Fairchild 81C1000A-60	1?		gold contacts, low profile, parity
+	30 pin	?	2 x Fujitsu 814400-80L, 1 x Fujitsu 81C1000A-60	1?		gold contacts, low profile, parity
 	30 pin	?	2 x Goldstar KM44C1000CJ-7, 1 x ? VT531000 BJ-60	1?		gold contacts, low profile, parity
 	30 pin	TP 03001045	9 x Mitsubishi M5M41000BJ -7	1?		parity
 	30 pin	B74911I	8 x Hyundai HY531000AJ-70, 1 x ? BP41C1000D-6	1?		gold contacts, parity
